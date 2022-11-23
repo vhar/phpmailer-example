@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PHPMailer Example</title>
+        <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div id="popup-wrapper"><div id="popup-content"><span class="popup-close"></span></div></div>
+        <header>
+            
+        </header>
+        <main>
+            <div class="container comtacts">
+                <div class="contact-form-wrapper">
+                    <h4>Напишите нам</h4>
+                    <form name="contact-form" id="contact-form" method="post">
+                        <label for="fullname">Ваше имя
+                            <input type="text" id="fullname" class="required" name="formdata[fullname]" value="" placeholder="Ваше имя">
+                        </label>
+                        <label for="phone">Контактный телефон
+                            <input type="text" id="phone" name="formdata[phone]" value="" placeholder="Ваш телефон">
+                        </label>
+                        <label for="email">Ваш e-mail
+                            <input type="email" id="email" class="required" name="formdata[email]" value="" placeholder="Email">
+                        </label>
+                        <label for="message">Сообщение
+                            <textarea id="message" class="required" name="formdata[message]" placeholder="Ваше сообщение"></textarea>
+                        </label>
+                        <div class="checkbox-wrapper">
+                            <input type="checkbox" class="checkbox" name="policy-agreements" id="policy-agreements" value="1"><label for="policy-agreements"></label>
+                            <span>Нажимая кнопку "Отправить", я подтверждаю свою дееспособность, даю согласие на обработку своих персональных данных в соответсвтии с <a>Условиями</a></span>
+                        </div>
+                        <button type="button" id="send-message">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="copy container">&copy; <a href="https://github.com/vhar">2022 ИП Хариненков В.В.</a></div>
+        </footer>
+    </body>
+</html>
