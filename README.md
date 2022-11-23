@@ -13,7 +13,7 @@ MAIL_FROM_NAME=Имя "От кого"
 MAIL_RECIPIENT=получатель почты. На этот адрес будет отправлятся почта из формы.
 MAIL_SUBJECT=Тема письма
 ```
-Пример файла .env
+4. Пример файла .env
 ```
 SMTP_HOST=smtp.yandex.ru
 SMTP_LOGIN=mymail@ya.ru
@@ -25,3 +25,4 @@ MAIL_FROM_NAME='Форма обратной сязи с моего сайта'
 MAIL_RECIPIENT=myofficemail@mail.ru
 MAIL_SUBJECT='Сообщение с сайта'
 ```
+5. Для отправки данных зайдите по адресу http://ваш_сайт/contactform.html
